@@ -1,0 +1,22 @@
+.header--container {
+  background-color: aqua;
+}
+.header__diseno {
+  color: black;
+  border: 2px solid black;
+}
+.header__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+.header__item {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+.header__item--action {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,35 @@
+.header {
+
+
+    &--container {
+        background-color: aqua;
+    }
+
+    &__diseno {
+
+        color: black;
+        border: 2px solid black;
+    }
+
+    &__list {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+
+    &__item {
+
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+
+
+        &--action {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
